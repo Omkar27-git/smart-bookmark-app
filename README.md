@@ -1,36 +1,151 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Perfect 💪 — here is your **professional, submission-ready README**.
+You can copy-paste directly into `README.md`.
 
-## Getting Started
+---
 
-First, run the development server:
+# 📘 Smart Bookmark App
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Problem Statement
+
+Managing useful links across different browsers and devices can be difficult and insecure.
+This project solves that problem by providing a **secure, real-time personal bookmark manager** where users can save, view, and delete their bookmarks privately.
+
+Each user can access only their own bookmarks, and updates are reflected instantly across multiple tabs using real-time synchronization.
+
+---
+
+## ✨ Features Implemented
+
+* 🔐 Google OAuth authentication using Supabase
+* 👤 Private bookmarks per user (Row Level Security)
+* ➕ Add new bookmarks
+* 🗑 Delete bookmarks
+* ⚡ Real-time updates across tabs
+* 📱 Responsive design (mobile, tablet, desktop)
+* 🔔 Toast notifications for user feedback
+* 🎨 Clean modern UI with Tailwind CSS
+
+---
+
+## 🧠 Tech Stack
+
+**Frontend**
+
+* Next.js (App Router)
+* React.js
+* Tailwind CSS
+* Lucide React (icons)
+* React Hot Toast
+
+**Backend / Services**
+
+* Supabase Authentication (Google OAuth)
+* Supabase PostgreSQL
+* Supabase Realtime
+* Row Level Security (RLS)
+
+---
+
+## 🔐 Security
+
+Row Level Security (RLS) policies ensure:
+
+* Users can only view their own bookmarks
+* Users can only insert their own bookmarks
+* Users can only delete their own bookmarks
+
+This guarantees complete data isolation between users.
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── app/
+ │    ├── page.js
+ │    └── dashboard/
+ │         └── page.js
+ │
+ ├── components/
+ │    ├── LoginButton.jsx
+ │    ├── BookmarkForm.jsx
+ │    └── BookmarkList.jsx
+ │
+ └── lib/
+      └── supabase.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ⚙️ Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file in the root:
 
-## Learn More
+```
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🖥️ Run Locally
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# Clone the repository
+git clone <>
 
-## Deploy on Vercel
+# Navigate to project
+cd smart-bookmark
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Install dependencies
+pnpm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Run development server
+pnpm dev
+```
+
+Open:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Vercel Link:**
+*()*
+
+---
+
+## 🧪 Realtime Behavior
+
+* Open the app in two tabs
+* Add or delete a bookmark in one tab
+* The other tab updates automatically without refresh
+
+---
+
+## 📈 Approach
+
+The application was built using a **component-driven architecture** with Supabase handling authentication, database, and realtime subscriptions.
+
+Key focus areas:
+
+* Secure per-user data isolation using RLS
+* Clean and responsive UI
+* Real-time synchronization across clients
+* Maintainable and scalable folder structure
+
+---
+
+## 🙌 Author
+
+**Omkar**
+
+---
+
+
+
