@@ -1,7 +1,3 @@
-Perfect 💪 — here is your **professional, submission-ready README**.
-You can copy-paste directly into `README.md`.
-
----
 
 # 📘 Smart Bookmark App
 
@@ -115,8 +111,8 @@ http://localhost:3000
 
 ## 🌐 Live Demo
 
-🔗 **Vercel Link:**
-*()*
+🔗 Live Site: https://smart-bookmark-app-44fh.vercel.app/
+🔗 GitHub Repo: https://github.com/Omkar27-git/smart-bookmark-app
 
 ---
 
