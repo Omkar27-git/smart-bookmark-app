@@ -111,7 +111,7 @@ http://localhost:3000
 
 ## 🌐 Live Demo
 
-🔗 Live Site: https://smart-bookmark-app-44fh.vercel.app/
+🔗 Live Site:https://smart-bookmark-app-eta-nine.vercel.app/
 🔗 GitHub Repo: https://github.com/Omkar27-git/smart-bookmark-app
 
 ---
